@@ -7,7 +7,7 @@ import logging
 def argument_parser():
 
     parser = argparse.ArgumentParser(
-        description='This script will parse nginx log file and return the number of occurrences of evert status code')
+        description='This script will parse nginx log file and return the number of occurrences of every status code')
     parser.add_argument('-file', '-f', dest='nginx_log_file',
                         help='Path to NGINX log file',
                         required=True
